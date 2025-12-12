@@ -163,16 +163,22 @@ form button:hover{background:var(--accent-hover);transform:translateY(-2px);}
 footer{
   margin-top:36px;
   padding:25px 0;
-   background:linear-gradient(135deg,#cfa64e,#a88333);
+  background:linear-gradient(135deg,#d6a44c,#b38730);
   color:#fff;
   border-top:1px solid #eee;
   text-align:center;
   font-size:14px;
   transition:0.3s;
 }
-footer a{color:#fff;text-decoration:underline;}
-footer a:hover{color:#ddd;}
 
+footer a{
+  color:#fff;
+  text-decoration:underline;
+}
+
+footer a:hover{
+  color:#f2efe7;
+}
 /* Animations */
 @keyframes fadeIn{0%{opacity:0;transform:translateY(20px);}100%{opacity:1;transform:translateY(0);}}
 .page-bg {
