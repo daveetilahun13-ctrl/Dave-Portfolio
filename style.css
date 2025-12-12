@@ -163,7 +163,7 @@ form button:hover{background:var(--accent-hover);transform:translateY(-2px);}
 footer{
   margin-top:36px;
   padding:25px 0;
-  background:linear-gradient(135deg,#0b78ff,#74b9ff);
+   background:linear-gradient(135deg,#cfa64e,#a88333);
   color:#fff;
   border-top:1px solid #eee;
   text-align:center;
