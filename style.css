@@ -1,3 +1,4 @@
+Rediet Tilahun, [12/12/2025 4:11 AM]
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
@@ -50,12 +51,18 @@ body{background:var(--bg);color:var(--text);line-height:1.6;}
 .navbar .nav-link:hover{background:var(--accent);color:#fff;}
 .navbar .nav-link.active{background:var(--accent);color:#fff;}
 
-/* Hero Section */
+/* Main Content */
 .main-content{padding:40px 0;}
+
+/* Grid */
 .grid{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center;animation:fadeIn 1s ease;}
 @media (max-width:720px){.grid{grid-template-columns:1fr;text-align:center;}}
+
+/* Hero Text */
 .hero-text h2{margin-bottom:12px;font-size:28px;}
 .hero-text p{margin-bottom:16px;font-size:16px;color:var(--muted);}
+
+/* Buttons */
 .btn{
   display:inline-block;padding:10px 20px;border-radius:8px;
   background:var(--accent);color:#fff;text-decoration:none;font-weight:700;transition:0.3s;
@@ -68,6 +75,42 @@ body{background:var(--bg);color:var(--text);line-height:1.6;}
 .profile-img{width:260px;height:260px;object-fit:cover;border-radius:50%;border:4px solid #ddd;transition:0.5s;}
 .profile-img:hover{transform:scale(1.05);}
 .profile-img-large{width:220px;height:220px;object-fit:cover;border-radius:20px;border:3px solid #ddd;}
+
+/* HERO BACKGROUND IMAGE (NEW) */
+.hero-bg {
+  position: relative;
+  background: url("your-image.jpg") center/cover no-repeat;
+  padding: 60px 30px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* Dark overlay */
+.hero-bg::before {
+  content: "";
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.45);
+  z-index: 0;
+}
+
+/* Bring content above overlay */
+.hero-bg > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Text readability on hero bg */
+.hero-bg .hero-text h2 {
+  color: #fff;
+}
+
+.hero-bg .hero-text p {
+  color: #e0e0e0;
+}
 
 /* Sections */
 h1,h2,h3{margin:12px 0;}
@@ -116,6 +159,7 @@ form button{
 }
 form button:hover{background:var(--accent-hover);transform:translateY(-2px);}
 
+Rediet Tilahun, [12/12/2025 4:11 AM]
 /* Footer */
 footer{
   margin-top:36px;
@@ -127,4 +171,8 @@ footer{
   font-size:14px;
   transition:0.3s;
 }
-footer a{color:#fff;
+footer a{color:#fff;text-decoration:underline;}
+footer a:hover{color:#ddd;}
+
+/* Animations */
+@keyframes fadeIn{0%{opacity:0;transform:translateY(20px);}100%{opacity:1;transform:translateY(0);}}
