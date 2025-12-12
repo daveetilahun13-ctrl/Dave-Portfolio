@@ -182,16 +182,3 @@ footer a:hover{color:#ddd;}
 }
 
 /* Add a soft overlay for readability */
-.page-bg::before {
-  content: "";
-  position: fixed;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background: rgba(0, 0, 0, 0.55);
-  z-index: -1;
-}
-
-/* Ensure all text stays readable */
-body, p, h1, h2, h3 {
-  color: #fff;
-}
