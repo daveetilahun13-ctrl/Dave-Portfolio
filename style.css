@@ -3,8 +3,8 @@
 
 /* Reset + Base */
 :root{
-  --accent:#0b78ff;
-  --accent-hover:#0959cc;
+--accent:#cfa64e;         /* gold */
+  --accent-hover:#a88333;   /* darker gold *
   --bg:#f6f8fb;
   --card:#fff;
   --text:#212121;
