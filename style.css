@@ -185,16 +185,16 @@ footer a:hover{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed; /* optional - gives a nice parallax feel */
+  background-attachment: fixed; /*  parallax  */
 } 
 .page-bg .hero-text h2 {
-  font-size: 42px;   /* bigger heading */
+  font-size: 42px;   /* heading */
   font-weight: 700;
   color: #fff !important;
 }
 
 .page-bg .hero-text p {
-  font-size: 20px;   /* bigger paragraph text */
+  font-size: 20px;   /*  paragraph text */
   color: #fff !important;
   line-height: 1.6;
 }
