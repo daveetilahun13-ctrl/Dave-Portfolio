@@ -1,47 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Dawit Tilahun - Contact</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dawit Tilahun — Contact</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1 class="site-title">Contact</h1>
+      </div>
+      <nav class="navbar">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-<h1 align="center">Contact Me</h1>
+  <main class="container main-content narrow">
+    <section>
+      <h2>Get in touch</h2>
+      <p>Email: <a href="mailto:dawittilahun@gmail.com">dawittilahun@gmail.com</a></p>
+      <p>Phone: +251 911 792 006</p>
 
-<div align="center">
-    <a href="index.html">Home</a> |
-    <a href="about.html">About</a> |
-    <a href="projects.html">Projects</a> |
-    <a href="contact.html">Contact</a>
-</div>
+      <h3>Send a message</h3>
+      <!-- Option: If you want messages to be collected, replace action with your Formspree endpoint -->
+      <form action="#" onsubmit="alert('This form is a demo. To receive messages, add a form backend like Formspree.'); return false;">
+        <p><input type="text" name="name" placeholder="Your name" required></p>
+        <p><input type="email" name="email" placeholder="Your email" required></p>
+        <p><input type="text" name="subject" placeholder="Subject"></p>
+        <p><textarea name="message" rows="5" placeholder="Message" required></textarea></p>
+        <p><button class="btn" type="submit">Send</button></p>
+      </form>
+    </section>
+  </main>
 
-<hr>
-
-<div align="center">
-    <p>Email: <a href="mailto:dawittilahun@gmail.com" target="_blank">dawittilahun@gmail.com</a></p>
-    <p>Phone: +251911792006</p>
-    <p>Address: Mexico, Addis Ababa, Ethiopia</p>
-</div>
-
-<h2 align="center">Send Me a Message</h2>
-
-<div align="center">
-    <form>
-        <p><input type="text" placeholder="Your Name" size="40" required></p>
-        <p><input type="email" placeholder="Your Email" size="40" required></p>
-        <p><input type="tel" placeholder="Your Phone" size="40"></p>
-        <p><input type="text" placeholder="Subject" size="40"></p>
-        <p><button type="submit">Submit</button></p>
-    </form>
-</div>
-
-<footer>
-    <hr width="60%" size="2" color="black" align="center">
-    <p align="center">
-        &copy; 2025 Dawit Tilahun. All rights reserved.<br>
-        Email: <a href="mailto:dawittilahun@gmail.com" target="_blank">dawittilahun@gmail.com</a>
-    </p>
-</footer>
-
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Dawit Tilahun. All rights reserved. • <a href="mailto:dawittilahun@gmail.com">dawittilahun@gmail.com</a></p>
+    </div>
+  </footer>
 </body>
 </html>
